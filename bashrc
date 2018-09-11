@@ -47,5 +47,9 @@ alias duu='du -h --max-depth=1'
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias dotfilesup='cd ~/.dot-simple && git pull origin master && source install.sh'
 
+# Laravel
+alias pa="php artisan"
+alias llog="tail -f storage/logs/laravel.log"
+
 # go sudo root and keep profile
 alias root='sudo MYHOME=~ SSH_CLIENT="$SSH_CLIENT" bash --rcfile ~/.bashrc'
